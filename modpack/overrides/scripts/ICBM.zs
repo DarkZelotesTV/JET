@@ -63,8 +63,6 @@ val wp = <ProjRed|Core:projectred.core.part:2>;
 val rt = <minecraft:redstone_torch>;
 val bt = <BigReactors:BRIngot:3>;
 
-recipes.addShaped(base_rocket, [[null, steel_ingot, null], [iron_block, <minecraft:tnt>, iron_block], [iron_block, cir, iron_block]]);
-
 mods.biggercraftingtables.Big.addShaped(<icbmclassic:icbmCMissile:0>, [
     [null, null, steel_ingot, null, null],
     [null, steel_ingot, <icbmclassic:icbmCExplosive:0>, steel_ingot, null],
@@ -372,4 +370,6 @@ mods.biggercraftingtables.Big.addShaped(<icbmclassic:icbmCRadarStation>, [
     [null, steel_ingot, bt, steel_ingot, null],
     [reactor_case, null, null, null, reactor_case]
 ]);
+
+recipes.addShaped(base_rocket, [[null, steel_ingot, null], [iron_block, <minecraft:tnt>, iron_block], [iron_block, cir, iron_block]]);
 
